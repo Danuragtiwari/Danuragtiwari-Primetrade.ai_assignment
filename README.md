@@ -23,7 +23,7 @@ You can install them using pip:
 
 ### 1. API Key
 
-You need a valid API key from CoinMarketCap to access the data. You can obtain your API key by signing up for the [CoinMarketCap API]() service.
+You need a valid API key from CoinMarketCap to access the data. You can obtain your API key by signing up for the [CoinMarketCap API](https://coinmarketcap.com/) service.
 
 Replace `'YOUR_API_KEY'` in the script with your actual API key.
 
@@ -52,7 +52,7 @@ To run the script, simply execute the Python file:
 
 <pre class="!overflow-visible">
   <code class="!whitespace-pre hljs language-bash">
-    python crypto_data_fetcher.py
+    python assignment.py
   </code>
 </pre>
 

@@ -6,7 +6,7 @@ import schedule
 import time
 
 # API URL and Key
-url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
+url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest' 
 parameters = {
     'start': '1',
     'limit': '50',  # Fetch top 50 cryptocurrencies
@@ -14,7 +14,7 @@ parameters = {
 }
 headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': '89977ff1-6c25-492e-88dc-852a05bc922d',
+    'X-CMC_PRO_API_KEY': '89977ff1-6c25-492e-88dc-852a05bc922d',#YOUR_API_KEY
 }
 
 # Fetch live cryptocurrency data
